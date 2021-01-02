@@ -9,8 +9,8 @@ import time
 import random
 
 # Configuration
-C2_ADDRESS  = '142.250.123.109'
-C2_PORT     = 587
+C2_ADDRESS  = '127.0.0.1'
+C2_PORT     = 101
 
 base_user_agents = [
     'Mozilla/%.1f (Windows; U; Windows NT {0}; en-US; rv:%.1f.%.1f) Gecko/%d0%d Firefox/%.1f.%.1f'.format(random.uniform(5.0, 10.0)),
